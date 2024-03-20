@@ -1,0 +1,383 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+
+.bg{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.bg-img{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    transform: scale(1.3);
+}
+
+.tint{
+    background-color: rgb(0 0 0/40%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.nav{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+    width: 1400px;
+    top: 5.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nav-btns{
+    display: flex;
+    gap: 20px;
+}
+
+.en-btn{
+    border: 1px solid rgb(80, 78, 83);
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 2.5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140px;
+}
+
+.arrow{
+    margin-top: 6px;
+}
+
+.lang{
+    margin-top: 5px;
+}
+
+.signin-btn{
+    border: none;
+    background-color: #DF0A15;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 20px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.heading{
+    font-size: 52px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 980px;
+    font-size: 27px;
+    text-align: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.content-input{
+    border: 1px solid rgb(60, 59, 63);
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 400px;
+    padding: 20px 18px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: lightgray;
+}
+
+.Get-btn{
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #DF0A15;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-evenly;
+    width: 230px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.right-arrow{
+    margin-top: 5px;
+}
+
+section{
+    border-bottom: 8px solid rgb(41, 41, 41);
+}
+
+.left{
+    color: white;
+    width: 50%;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 190px;
+}
+
+.right{
+    width: 50%;
+
+}
+
+.section2-para{
+    font-size: 39px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.title{
+    font-size: 53px;
+    font-weight: 900;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    width: 1800px;
+    margin: 100px auto;
+    gap: 80px;
+}
+
+.tv-img{
+    position: relative;
+}
+
+.tv-video{
+    position: absolute;
+    margin-left: 84px;
+    margin-top: 90px;
+}
+
+.sec3-title{
+    color: white;
+    font-size: 53px;
+}
+
+.section-3{
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    justify-content: center;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.sec3-para{
+    color: white;
+    font-size: 24px;
+    font-weight: 200px;
+}
+
+.mbl{
+    position: relative;
+}
+.top{
+    width: 300px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 158px;
+    bottom: 30px;
+    display: flex;
+    padding: 10px;
+    gap: 18px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.white{
+    color: white;
+    margin: 0;
+}
+
+.img-3{
+    height: 100px;
+}
+
+.blue{
+    color: #174595;
+    margin: 0;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.sec4-para{
+    font-size: 35px;
+    margin: 0;
+}
+
+.section-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 150px;
+}
+
+.section4-left{
+    color: white;
+    width: 50%;
+}
+
+.section4-right{
+    width: 50%;
+}
+
+.mac-img{
+    position: relative;
+}
+
+.mac-video{
+    position: absolute;
+    margin-left: 120px;
+    height: 220px;
+    margin-top: 35px;
+}
+
+.section-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    margin: 100px auto;
+    gap: 30px;
+}
+
+.kids-img{
+    height: 450px;
+    
+}
+
+.kids-desc{
+    align-items: left;
+    color: white;
+}
+
+.kid-heading{
+    font-size: 52px;
+    margin: 0;
+}
+
+.kid-para{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.faq-heading{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 55px;
+}
+
+.Questions{
+    width: 1200px;
+    background-color: #242324;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+}
+
+.para{
+    font-size: 25px;
+}
+
+.Last-Questions{
+    width: 1200px;
+    background-color: #242324;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 3px 20px;
+    margin-bottom: 38px;
+}
+
+.faq-2{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.p{
+    margin-bottom: 15px;
+}
+
+.input-1{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.first-column{
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor{
+    color: lightgrey;
+    margin-top: 10px;
+
+}
+
+.column-flex{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 30px auto;
+}
+
+.second-column{
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-column{
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-column{
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
